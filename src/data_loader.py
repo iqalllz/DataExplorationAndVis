@@ -8,8 +8,4 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """Basic cleaning: drop duplicates, handle missing"""
     df = df.drop_duplicates()
     df = df.dropna(how="all")
-<<<<<<< HEAD
     return df
-=======
-    return df
-
